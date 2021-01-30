@@ -15,9 +15,9 @@ const embed = new Discord.MessageEmbed() //we created an embed here, now we need
 .setTitle('') //adds a title to the embed, make sure its a string
 .setDescription('') //description of the embed
 .setColor('') //use color codes such as #123ad or you can use regular colours like, RED or BLUE
-.addField('field's title', 'the things inside the field') //fields are interesting... //pretty sure markdown is enabled doe
+.addField('field\'s title', 'the things inside the field') //fields are interesting... //pretty sure markdown is enabled doe
 .addField('', '') //yes you can have multiple fields....
 client.login('token'); //logs in to the bot
 
-
+//fun fact: a \ is an escape chracter, you can use \' to add a ' smybol without closing the string.
 //theres more to discord.js, this is just the basics explained briefly
